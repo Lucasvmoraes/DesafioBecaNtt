@@ -16,6 +16,7 @@
 		342B297627D3DD8B003F85C9 /* DesafioBecaNttTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B297527D3DD8B003F85C9 /* DesafioBecaNttTests.swift */; };
 		342B298027D3DD8B003F85C9 /* DesafioBecaNttUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B297F27D3DD8B003F85C9 /* DesafioBecaNttUITests.swift */; };
 		342B298227D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B298127D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift */; };
+		342B299127D3F8EF003F85C9 /* Themes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B299027D3F8EF003F85C9 /* Themes.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		342B297B27D3DD8B003F85C9 /* DesafioBecaNttUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioBecaNttUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342B297F27D3DD8B003F85C9 /* DesafioBecaNttUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioBecaNttUITests.swift; sourceTree = "<group>"; };
 		342B298127D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioBecaNttUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		342B299027D3F8EF003F85C9 /* Themes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Themes.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,8 @@
 		342B295D27D3DD88003F85C9 /* DesafioBecaNtt */ = {
 			isa = PBXGroup;
 			children = (
-				342B295E27D3DD88003F85C9 /* AppDelegate.swift */,
-				342B296027D3DD88003F85C9 /* SceneDelegate.swift */,
-				342B296227D3DD88003F85C9 /* ViewController.swift */,
-				342B296427D3DD88003F85C9 /* Main.storyboard */,
-				342B296727D3DD8B003F85C9 /* Assets.xcassets */,
-				342B296927D3DD8B003F85C9 /* LaunchScreen.storyboard */,
 				342B296C27D3DD8B003F85C9 /* Info.plist */,
+				342B298E27D3F87C003F85C9 /* Resource */,
 			);
 			path = DesafioBecaNtt;
 			sourceTree = "<group>";
@@ -125,6 +122,28 @@
 				342B298127D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift */,
 			);
 			path = DesafioBecaNttUITests;
+			sourceTree = "<group>";
+		};
+		342B298E27D3F87C003F85C9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				342B295E27D3DD88003F85C9 /* AppDelegate.swift */,
+				342B296027D3DD88003F85C9 /* SceneDelegate.swift */,
+				342B296227D3DD88003F85C9 /* ViewController.swift */,
+				342B296727D3DD8B003F85C9 /* Assets.xcassets */,
+				342B299027D3F8EF003F85C9 /* Themes.xcassets */,
+				342B298F27D3F89B003F85C9 /* Storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		342B298F27D3F89B003F85C9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				342B296427D3DD88003F85C9 /* Main.storyboard */,
+				342B296927D3DD8B003F85C9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				342B296B27D3DD8B003F85C9 /* LaunchScreen.storyboard in Resources */,
+				342B299127D3F8EF003F85C9 /* Themes.xcassets in Resources */,
 				342B296827D3DD8B003F85C9 /* Assets.xcassets in Resources */,
 				342B296627D3DD88003F85C9 /* Main.storyboard in Resources */,
 			);
