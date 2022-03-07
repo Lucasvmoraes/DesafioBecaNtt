@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		342B295F27D3DD88003F85C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B295E27D3DD88003F85C9 /* AppDelegate.swift */; };
 		342B296127D3DD88003F85C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B296027D3DD88003F85C9 /* SceneDelegate.swift */; };
-		342B296327D3DD88003F85C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B296227D3DD88003F85C9 /* ViewController.swift */; };
-		342B296627D3DD88003F85C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B296427D3DD88003F85C9 /* Main.storyboard */; };
 		342B296827D3DD8B003F85C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B296727D3DD8B003F85C9 /* Assets.xcassets */; };
 		342B296B27D3DD8B003F85C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B296927D3DD8B003F85C9 /* LaunchScreen.storyboard */; };
 		342B297627D3DD8B003F85C9 /* DesafioBecaNttTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B297527D3DD8B003F85C9 /* DesafioBecaNttTests.swift */; };
 		342B298027D3DD8B003F85C9 /* DesafioBecaNttUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B297F27D3DD8B003F85C9 /* DesafioBecaNttUITests.swift */; };
 		342B298227D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B298127D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift */; };
 		342B299127D3F8EF003F85C9 /* Themes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B299027D3F8EF003F85C9 /* Themes.xcassets */; };
+		E97F6CB927D6247800DDF1FB /* MoedaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F6CB827D6247800DDF1FB /* MoedaCoordinator.swift */; };
+		E97F6CBB27D6248700DDF1FB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F6CBA27D6248700DDF1FB /* Coordinator.swift */; };
+		E97F6CC527D6264C00DDF1FB /* MoedaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F6CC427D6264C00DDF1FB /* MoedaViewController.swift */; };
+		E97F6CC727D6265E00DDF1FB /* MoedaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F6CC627D6265E00DDF1FB /* MoedaView.swift */; };
+		E97F6CCB27D6281A00DDF1FB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F6CCA27D6281A00DDF1FB /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		342B295B27D3DD88003F85C9 /* DesafioBecaNtt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioBecaNtt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342B295E27D3DD88003F85C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		342B296027D3DD88003F85C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		342B296227D3DD88003F85C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		342B296527D3DD88003F85C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		342B296727D3DD8B003F85C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342B296A27D3DD8B003F85C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342B296C27D3DD8B003F85C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,11 @@
 		342B297F27D3DD8B003F85C9 /* DesafioBecaNttUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioBecaNttUITests.swift; sourceTree = "<group>"; };
 		342B298127D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioBecaNttUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		342B299027D3F8EF003F85C9 /* Themes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Themes.xcassets; sourceTree = "<group>"; };
+		E97F6CB827D6247800DDF1FB /* MoedaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoedaCoordinator.swift; sourceTree = "<group>"; };
+		E97F6CBA27D6248700DDF1FB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E97F6CC427D6264C00DDF1FB /* MoedaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoedaViewController.swift; sourceTree = "<group>"; };
+		E97F6CC627D6265E00DDF1FB /* MoedaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoedaView.swift; sourceTree = "<group>"; };
+		E97F6CCA27D6281A00DDF1FB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				342B296C27D3DD8B003F85C9 /* Info.plist */,
+				342B298F27D3F89B003F85C9 /* Storyboard */,
+				E97F6CB327D6233D00DDF1FB /* Controller */,
 				342B298E27D3F87C003F85C9 /* Resource */,
+				E97F6CB227D622DB00DDF1FB /* Source */,
+				342B296727D3DD8B003F85C9 /* Assets.xcassets */,
+				342B299027D3F8EF003F85C9 /* Themes.xcassets */,
 			);
 			path = DesafioBecaNtt;
 			sourceTree = "<group>";
@@ -129,10 +140,6 @@
 			children = (
 				342B295E27D3DD88003F85C9 /* AppDelegate.swift */,
 				342B296027D3DD88003F85C9 /* SceneDelegate.swift */,
-				342B296227D3DD88003F85C9 /* ViewController.swift */,
-				342B296727D3DD8B003F85C9 /* Assets.xcassets */,
-				342B299027D3F8EF003F85C9 /* Themes.xcassets */,
-				342B298F27D3F89B003F85C9 /* Storyboard */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -140,10 +147,132 @@
 		342B298F27D3F89B003F85C9 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				342B296427D3DD88003F85C9 /* Main.storyboard */,
 				342B296927D3DD8B003F85C9 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E97F6CB227D622DB00DDF1FB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E97F6CB427D6239A00DDF1FB /* DataStrore */,
+				E97F6CB527D623A800DDF1FB /* ViewModel */,
+				E97F6CB627D623BE00DDF1FB /* Model */,
+				E97F6CB727D623C500DDF1FB /* Coordinator */,
+				E97F6CBC27D625AF00DDF1FB /* InfraStructure */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E97F6CB327D6233D00DDF1FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E97F6CC427D6264C00DDF1FB /* MoedaViewController.swift */,
+				E97F6CC627D6265E00DDF1FB /* MoedaView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E97F6CB427D6239A00DDF1FB /* DataStrore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataStrore;
+			sourceTree = "<group>";
+		};
+		E97F6CB527D623A800DDF1FB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E97F6CB627D623BE00DDF1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E97F6CB727D623C500DDF1FB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E97F6CB827D6247800DDF1FB /* MoedaCoordinator.swift */,
+				E97F6CBA27D6248700DDF1FB /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E97F6CBC27D625AF00DDF1FB /* InfraStructure */ = {
+			isa = PBXGroup;
+			children = (
+				E97F6CBD27D625D400DDF1FB /* API */,
+				E97F6CC327D6262700DDF1FB /* Components */,
+				E97F6CC227D6261700DDF1FB /* Constants */,
+				E97F6CC127D6260E00DDF1FB /* Enums */,
+				E97F6CC027D6260600DDF1FB /* Extensions */,
+				E97F6CBF27D625F500DDF1FB /* Localizable */,
+				E97F6CBE27D625E000DDF1FB /* Utils */,
+			);
+			path = InfraStructure;
+			sourceTree = "<group>";
+		};
+		E97F6CBD27D625D400DDF1FB /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E97F6CBE27D625E000DDF1FB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E97F6CBF27D625F500DDF1FB /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		E97F6CC027D6260600DDF1FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E97F6CC827D627BE00DDF1FB /* TabBar */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E97F6CC127D6260E00DDF1FB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E97F6CC227D6261700DDF1FB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E97F6CC327D6262700DDF1FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E97F6CC827D627BE00DDF1FB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E97F6CCA27D6281A00DDF1FB /* TabBarController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +382,6 @@
 				342B296B27D3DD8B003F85C9 /* LaunchScreen.storyboard in Resources */,
 				342B299127D3F8EF003F85C9 /* Themes.xcassets in Resources */,
 				342B296827D3DD8B003F85C9 /* Assets.xcassets in Resources */,
-				342B296627D3DD88003F85C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +406,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342B296327D3DD88003F85C9 /* ViewController.swift in Sources */,
 				342B295F27D3DD88003F85C9 /* AppDelegate.swift in Sources */,
+				E97F6CBB27D6248700DDF1FB /* Coordinator.swift in Sources */,
+				E97F6CC727D6265E00DDF1FB /* MoedaView.swift in Sources */,
+				E97F6CC527D6264C00DDF1FB /* MoedaViewController.swift in Sources */,
+				E97F6CCB27D6281A00DDF1FB /* TabBarController.swift in Sources */,
 				342B296127D3DD88003F85C9 /* SceneDelegate.swift in Sources */,
+				E97F6CB927D6247800DDF1FB /* MoedaCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		342B296427D3DD88003F85C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				342B296527D3DD88003F85C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		342B296927D3DD8B003F85C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -464,7 +588,6 @@
 				INFOPLIST_FILE = DesafioBecaNtt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,7 +615,6 @@
 				INFOPLIST_FILE = DesafioBecaNtt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
