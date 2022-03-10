@@ -17,6 +17,7 @@
 		342B298027D3DD8B003F85C9 /* DesafioBecaNttUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B297F27D3DD8B003F85C9 /* DesafioBecaNttUITests.swift */; };
 		342B298227D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B298127D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift */; };
 		342B299127D3F8EF003F85C9 /* Themes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B299027D3F8EF003F85C9 /* Themes.xcassets */; };
+		3469CC0627DA732300FC3CC2 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469CC0527DA732300FC3CC2 /* Color+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		342B297F27D3DD8B003F85C9 /* DesafioBecaNttUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioBecaNttUITests.swift; sourceTree = "<group>"; };
 		342B298127D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioBecaNttUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		342B299027D3F8EF003F85C9 /* Themes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Themes.xcassets; sourceTree = "<group>"; };
+		3469CC0527DA732300FC3CC2 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		342B298E27D3F87C003F85C9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3469CC0227DA72F800FC3CC2 /* Extensions */,
 				342B295E27D3DD88003F85C9 /* AppDelegate.swift */,
 				342B296027D3DD88003F85C9 /* SceneDelegate.swift */,
 				342B296227D3DD88003F85C9 /* ViewController.swift */,
@@ -144,6 +147,14 @@
 				342B296927D3DD8B003F85C9 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		3469CC0227DA72F800FC3CC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3469CC0527DA732300FC3CC2 /* Color+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				342B296327D3DD88003F85C9 /* ViewController.swift in Sources */,
+				3469CC0627DA732300FC3CC2 /* Color+.swift in Sources */,
 				342B295F27D3DD88003F85C9 /* AppDelegate.swift in Sources */,
 				342B296127D3DD88003F85C9 /* SceneDelegate.swift in Sources */,
 			);
