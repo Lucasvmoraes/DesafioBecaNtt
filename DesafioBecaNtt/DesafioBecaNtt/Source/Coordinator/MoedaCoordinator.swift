@@ -16,9 +16,17 @@ class MoedaCoordinator: Coordinator {
     }
     
     func start() {
-        let viewController = MoedaViewController()
-        
-        self.navigationController.pushViewController(viewController, animated: true)
+        let viewController = CurrencyViewController()
+        viewController.onSelectedMoeda = { viewModel in
+            self.gotoDetails(viewModel: viewModel)
+        }
+        self.navigationController.pushViewController(viewController, animated: false)
+    }
+    
+    func gotoDetails(viewModel: CurrencyViewModel) {
+        let vm = viewModel
+        let coordinator = MoedaDetailsCoordinator(navigationController: self.navigationController,
+                                                  moedaViewModel: vm)
+        coordinator.start()
     }
 }
-    

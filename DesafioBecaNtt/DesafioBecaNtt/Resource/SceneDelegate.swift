@@ -25,6 +25,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let coordinator = MoedaCoordinator(navigationController: navigationController)
         coordinator.start()
+        
+        let tabBar = TabBarController(navigationController: navigationController)
+        tabBar.start()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
