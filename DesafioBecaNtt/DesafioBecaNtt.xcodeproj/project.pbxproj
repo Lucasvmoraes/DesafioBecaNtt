@@ -9,15 +9,27 @@
 /* Begin PBXBuildFile section */
 		342B295F27D3DD88003F85C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B295E27D3DD88003F85C9 /* AppDelegate.swift */; };
 		342B296127D3DD88003F85C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B296027D3DD88003F85C9 /* SceneDelegate.swift */; };
-		342B296827D3DD8B003F85C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B296727D3DD8B003F85C9 /* Assets.xcassets */; };
-		342B296B27D3DD8B003F85C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B296927D3DD8B003F85C9 /* LaunchScreen.storyboard */; };
 		342B297627D3DD8B003F85C9 /* DesafioBecaNttTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B297527D3DD8B003F85C9 /* DesafioBecaNttTests.swift */; };
 		342B298027D3DD8B003F85C9 /* DesafioBecaNttUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B297F27D3DD8B003F85C9 /* DesafioBecaNttUITests.swift */; };
 		342B298227D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B298127D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift */; };
-		342B299127D3F8EF003F85C9 /* Themes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B299027D3F8EF003F85C9 /* Themes.xcassets */; };
 		3469CC0627DA732300FC3CC2 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469CC0527DA732300FC3CC2 /* Color+.swift */; };
 		3469CC0C27DA759C00FC3CC2 /* CoinDetailsViewGreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469CC0B27DA759C00FC3CC2 /* CoinDetailsViewGreen.swift */; };
 		3469CC0E27DA760400FC3CC2 /* CoinDetailsViewBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469CC0D27DA760400FC3CC2 /* CoinDetailsViewBlack.swift */; };
+		347B5C8927E0DCBD004B728B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347B5C8727E0DCBD004B728B /* LaunchScreen.storyboard */; };
+		347B5C8D27E0DCF4004B728B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347B5C8C27E0DCF4004B728B /* Assets.xcassets */; };
+		347B5C8F27E0DCF8004B728B /* Themes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347B5C8E27E0DCF8004B728B /* Themes.xcassets */; };
+		347B5C9F27E0DD14004B728B /* FavoriteScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9227E0DD14004B728B /* FavoriteScreenViewController.swift */; };
+		347B5CA027E0DD14004B728B /* FavoriteScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9327E0DD14004B728B /* FavoriteScreenView.swift */; };
+		347B5CA127E0DD14004B728B /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9427E0DD14004B728B /* CustomCollectionViewCell.swift */; };
+		347B5CA227E0DD14004B728B /* AddFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9627E0DD14004B728B /* AddFavoriteView.swift */; };
+		347B5CA327E0DD14004B728B /* AddFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9727E0DD14004B728B /* AddFavoriteViewController.swift */; };
+		347B5CA427E0DD14004B728B /* CustomTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9927E0DD14004B728B /* CustomTitleView.swift */; };
+		347B5CA527E0DD14004B728B /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9A27E0DD14004B728B /* CurrencyViewController.swift */; };
+		347B5CA627E0DD14004B728B /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9B27E0DD14004B728B /* CurrencyTableViewCell.swift */; };
+		347B5CA727E0DD14004B728B /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9C27E0DD14004B728B /* CurrencyView.swift */; };
+		347B5CA827E0DD14004B728B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5C9E27E0DD14004B728B /* TabBarController.swift */; };
+		347B5CD327E0DECA004B728B /* FavoriteScreenCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5CD227E0DECA004B728B /* FavoriteScreenCollectionViewController.swift */; };
+		347B5CD527E0DEE4004B728B /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B5CD427E0DEE4004B728B /* CustomCollectionViewCell.swift */; };
 		34E1C2F627DFC3A8002FED90 /* CoinDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1C2F527DFC3A8002FED90 /* CoinDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,18 +54,46 @@
 		342B295B27D3DD88003F85C9 /* DesafioBecaNtt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioBecaNtt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342B295E27D3DD88003F85C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		342B296027D3DD88003F85C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		342B296727D3DD8B003F85C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		342B296A27D3DD8B003F85C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342B296C27D3DD8B003F85C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342B297127D3DD8B003F85C9 /* DesafioBecaNttTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioBecaNttTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342B297527D3DD8B003F85C9 /* DesafioBecaNttTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioBecaNttTests.swift; sourceTree = "<group>"; };
 		342B297B27D3DD8B003F85C9 /* DesafioBecaNttUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioBecaNttUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342B297F27D3DD8B003F85C9 /* DesafioBecaNttUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioBecaNttUITests.swift; sourceTree = "<group>"; };
 		342B298127D3DD8B003F85C9 /* DesafioBecaNttUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioBecaNttUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		342B299027D3F8EF003F85C9 /* Themes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Themes.xcassets; sourceTree = "<group>"; };
 		3469CC0527DA732300FC3CC2 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		3469CC0B27DA759C00FC3CC2 /* CoinDetailsViewGreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewGreen.swift; sourceTree = "<group>"; };
 		3469CC0D27DA760400FC3CC2 /* CoinDetailsViewBlack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewBlack.swift; sourceTree = "<group>"; };
+		347B5C8827E0DCBD004B728B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		347B5C8C27E0DCF4004B728B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		347B5C8E27E0DCF8004B728B /* Themes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Themes.xcassets; sourceTree = "<group>"; };
+		347B5C9227E0DD14004B728B /* FavoriteScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteScreenViewController.swift; sourceTree = "<group>"; };
+		347B5C9327E0DD14004B728B /* FavoriteScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteScreenView.swift; sourceTree = "<group>"; };
+		347B5C9427E0DD14004B728B /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		347B5C9627E0DD14004B728B /* AddFavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFavoriteView.swift; sourceTree = "<group>"; };
+		347B5C9727E0DD14004B728B /* AddFavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFavoriteViewController.swift; sourceTree = "<group>"; };
+		347B5C9927E0DD14004B728B /* CustomTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTitleView.swift; sourceTree = "<group>"; };
+		347B5C9A27E0DD14004B728B /* CurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		347B5C9B27E0DD14004B728B /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		347B5C9C27E0DD14004B728B /* CurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		347B5C9E27E0DD14004B728B /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		347B5CB227E0DD21004B728B /* CustomTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleView.swift; sourceTree = "<group>"; };
+		347B5CB327E0DD21004B728B /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		347B5CB427E0DD21004B728B /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		347B5CB527E0DD21004B728B /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		347B5CB727E0DD21004B728B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		347B5CB927E0DD21004B728B /* CustomTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleView.swift; sourceTree = "<group>"; };
+		347B5CBA27E0DD21004B728B /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		347B5CBB27E0DD21004B728B /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		347B5CBC27E0DD21004B728B /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		347B5CBE27E0DD21004B728B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		347B5CBF27E0DD21004B728B /* CustomTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTitleView.swift; path = "../../../../../../../../Desktop/git 1503/DesafioBecaNtt/DesafioBecaNtt/DesafioBecaNtt/Controller/MoedaDigital/CustomTitleView.swift"; sourceTree = "<group>"; };
+		347B5CC027E0DD21004B728B /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrencyTableViewCell.swift; path = "../../../../../../../../Desktop/git 1503/DesafioBecaNtt/DesafioBecaNtt/DesafioBecaNtt/Controller/MoedaDigital/CurrencyTableViewCell.swift"; sourceTree = "<group>"; };
+		347B5CC127E0DD21004B728B /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrencyViewController.swift; path = "../../../../../../../../Desktop/git 1503/DesafioBecaNtt/DesafioBecaNtt/DesafioBecaNtt/Controller/MoedaDigital/CurrencyViewController.swift"; sourceTree = "<group>"; };
+		347B5CC227E0DD21004B728B /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrencyView.swift; path = "../../../../../../../../Desktop/git 1503/DesafioBecaNtt/DesafioBecaNtt/DesafioBecaNtt/Controller/MoedaDigital/CurrencyView.swift"; sourceTree = "<group>"; };
+		347B5CD027E0DD21004B728B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		347B5CD127E0DD21004B728B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = "../../../../../../../../../Desktop/git 1503/DesafioBecaNtt/DesafioBecaNtt/DesafioBecaNtt/Controller/MoedaDigital/TabBarController/TabBarController.swift"; sourceTree = "<group>"; };
+		347B5CD227E0DECA004B728B /* FavoriteScreenCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoriteScreenCollectionViewController.swift; path = DesafioBecaNtt/Resource/FavoriteScreenCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		347B5CD427E0DEE4004B728B /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomCollectionViewCell.swift; path = DesafioBecaNtt/Resource/CustomCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		34E1C2F527DFC3A8002FED90 /* CoinDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				342B296C27D3DD8B003F85C9 /* Info.plist */,
+				347B5C8627E0DCBD004B728B /* Storyboard */,
+				347B5CA927E0DD21004B728B /* Controller */,
 				342B298E27D3F87C003F85C9 /* Resource */,
 			);
 			path = DesafioBecaNtt;
@@ -133,31 +175,163 @@
 			children = (
 				342B295E27D3DD88003F85C9 /* AppDelegate.swift */,
 				342B296027D3DD88003F85C9 /* SceneDelegate.swift */,
-				34E1C2F527DFC3A8002FED90 /* CoinDetailsViewController.swift */,
-				3469CC0B27DA759C00FC3CC2 /* CoinDetailsViewGreen.swift */,
-				3469CC0D27DA760400FC3CC2 /* CoinDetailsViewBlack.swift */,
-				342B296727D3DD8B003F85C9 /* Assets.xcassets */,
-				342B299027D3F8EF003F85C9 /* Themes.xcassets */,
 				3469CC0227DA72F800FC3CC2 /* Extensions */,
-				342B298F27D3F89B003F85C9 /* Storyboard */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		342B298F27D3F89B003F85C9 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				342B296927D3DD8B003F85C9 /* LaunchScreen.storyboard */,
-			);
-			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		3469CC0227DA72F800FC3CC2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				3469CC0527DA732300FC3CC2 /* Color+.swift */,
+				347B5C8C27E0DCF4004B728B /* Assets.xcassets */,
+				347B5C8E27E0DCF8004B728B /* Themes.xcassets */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		347B5C8627E0DCBD004B728B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				347B5C9027E0DD14004B728B /* Controller */,
+				347B5C8727E0DCBD004B728B /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			path = "../../../../../../Desktop/git 1503/DesafioBecaNtt/DesafioBecaNtt/DesafioBecaNtt/Storyboard";
+			sourceTree = "<group>";
+		};
+		347B5C9027E0DD14004B728B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				347B5C9127E0DD14004B728B /* MoedasFavoritas */,
+				347B5C9527E0DD14004B728B /* AdicionarMoedaFavorita */,
+				347B5C9827E0DD14004B728B /* MoedaDigital */,
+			);
+			name = Controller;
+			path = ../Controller;
+			sourceTree = "<group>";
+		};
+		347B5C9127E0DD14004B728B /* MoedasFavoritas */ = {
+			isa = PBXGroup;
+			children = (
+				347B5C9227E0DD14004B728B /* FavoriteScreenViewController.swift */,
+				347B5C9327E0DD14004B728B /* FavoriteScreenView.swift */,
+				347B5C9427E0DD14004B728B /* CustomCollectionViewCell.swift */,
+			);
+			path = MoedasFavoritas;
+			sourceTree = "<group>";
+		};
+		347B5C9527E0DD14004B728B /* AdicionarMoedaFavorita */ = {
+			isa = PBXGroup;
+			children = (
+				347B5C9627E0DD14004B728B /* AddFavoriteView.swift */,
+				347B5C9727E0DD14004B728B /* AddFavoriteViewController.swift */,
+			);
+			path = AdicionarMoedaFavorita;
+			sourceTree = "<group>";
+		};
+		347B5C9827E0DD14004B728B /* MoedaDigital */ = {
+			isa = PBXGroup;
+			children = (
+				347B5C9927E0DD14004B728B /* CustomTitleView.swift */,
+				347B5C9A27E0DD14004B728B /* CurrencyViewController.swift */,
+				347B5C9B27E0DD14004B728B /* CurrencyTableViewCell.swift */,
+				347B5C9C27E0DD14004B728B /* CurrencyView.swift */,
+				347B5C9D27E0DD14004B728B /* TabBarController */,
+			);
+			path = MoedaDigital;
+			sourceTree = "<group>";
+		};
+		347B5C9D27E0DD14004B728B /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				347B5C9E27E0DD14004B728B /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		347B5CA927E0DD21004B728B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				347B5CAA27E0DD21004B728B /* MoedasFavoritas */,
+				347B5CAE27E0DD21004B728B /* AdicionarMoedaFavorita */,
+				347B5CB827E0DD21004B728B /* MoedaDigital */,
+				347B5CB127E0DD21004B728B /* MoedaDigital */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		347B5CAA27E0DD21004B728B /* MoedasFavoritas */ = {
+			isa = PBXGroup;
+			children = (
+				347B5CD227E0DECA004B728B /* FavoriteScreenCollectionViewController.swift */,
+				347B5CD427E0DEE4004B728B /* CustomCollectionViewCell.swift */,
+			);
+			path = MoedasFavoritas;
+			sourceTree = "<group>";
+		};
+		347B5CAE27E0DD21004B728B /* AdicionarMoedaFavorita */ = {
+			isa = PBXGroup;
+			children = (
+				34E1C2F527DFC3A8002FED90 /* CoinDetailsViewController.swift */,
+				3469CC0B27DA759C00FC3CC2 /* CoinDetailsViewGreen.swift */,
+				3469CC0D27DA760400FC3CC2 /* CoinDetailsViewBlack.swift */,
+			);
+			path = AdicionarMoedaFavorita;
+			sourceTree = "<group>";
+		};
+		347B5CB127E0DD21004B728B /* MoedaDigital */ = {
+			isa = PBXGroup;
+			children = (
+				347B5CB227E0DD21004B728B /* CustomTitleView.swift */,
+				347B5CB327E0DD21004B728B /* CurrencyViewController.swift */,
+				347B5CB427E0DD21004B728B /* CurrencyTableViewCell.swift */,
+				347B5CB527E0DD21004B728B /* CurrencyView.swift */,
+				347B5CB627E0DD21004B728B /* TabBarController */,
+			);
+			path = MoedaDigital;
+			sourceTree = "<group>";
+		};
+		347B5CB627E0DD21004B728B /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				347B5CB727E0DD21004B728B /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		347B5CB827E0DD21004B728B /* MoedaDigital */ = {
+			isa = PBXGroup;
+			children = (
+				347B5CB927E0DD21004B728B /* CustomTitleView.swift */,
+				347B5CBF27E0DD21004B728B /* CustomTitleView.swift */,
+				347B5CBA27E0DD21004B728B /* CurrencyViewController.swift */,
+				347B5CC127E0DD21004B728B /* CurrencyViewController.swift */,
+				347B5CBB27E0DD21004B728B /* CurrencyTableViewCell.swift */,
+				347B5CC027E0DD21004B728B /* CurrencyTableViewCell.swift */,
+				347B5CBC27E0DD21004B728B /* CurrencyView.swift */,
+				347B5CCF27E0DD21004B728B /* TabBarController */,
+				347B5CC227E0DD21004B728B /* CurrencyView.swift */,
+				347B5CBD27E0DD21004B728B /* TabBarController */,
+			);
+			path = MoedaDigital;
+			sourceTree = "<group>";
+		};
+		347B5CBD27E0DD21004B728B /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				347B5CBE27E0DD21004B728B /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		347B5CCF27E0DD21004B728B /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				347B5CD127E0DD21004B728B /* TabBarController.swift */,
+				347B5CD027E0DD21004B728B /* TabBarController.swift */,
+			);
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +438,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342B296B27D3DD8B003F85C9 /* LaunchScreen.storyboard in Resources */,
-				342B299127D3F8EF003F85C9 /* Themes.xcassets in Resources */,
-				342B296827D3DD8B003F85C9 /* Assets.xcassets in Resources */,
+				347B5C8D27E0DCF4004B728B /* Assets.xcassets in Resources */,
+				347B5C8F27E0DCF8004B728B /* Themes.xcassets in Resources */,
+				347B5C8927E0DCBD004B728B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +465,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347B5CA627E0DD14004B728B /* CurrencyTableViewCell.swift in Sources */,
+				347B5CD527E0DEE4004B728B /* CustomCollectionViewCell.swift in Sources */,
+				347B5CD327E0DECA004B728B /* FavoriteScreenCollectionViewController.swift in Sources */,
+				347B5CA827E0DD14004B728B /* TabBarController.swift in Sources */,
+				347B5CA727E0DD14004B728B /* CurrencyView.swift in Sources */,
+				347B5CA427E0DD14004B728B /* CustomTitleView.swift in Sources */,
 				3469CC0627DA732300FC3CC2 /* Color+.swift in Sources */,
+				347B5CA127E0DD14004B728B /* CustomCollectionViewCell.swift in Sources */,
 				34E1C2F627DFC3A8002FED90 /* CoinDetailsViewController.swift in Sources */,
+				347B5C9F27E0DD14004B728B /* FavoriteScreenViewController.swift in Sources */,
 				3469CC0E27DA760400FC3CC2 /* CoinDetailsViewBlack.swift in Sources */,
+				347B5CA327E0DD14004B728B /* AddFavoriteViewController.swift in Sources */,
 				342B295F27D3DD88003F85C9 /* AppDelegate.swift in Sources */,
+				347B5CA227E0DD14004B728B /* AddFavoriteView.swift in Sources */,
 				342B296127D3DD88003F85C9 /* SceneDelegate.swift in Sources */,
+				347B5CA527E0DD14004B728B /* CurrencyViewController.swift in Sources */,
+				347B5CA027E0DD14004B728B /* FavoriteScreenView.swift in Sources */,
 				3469CC0C27DA759C00FC3CC2 /* CoinDetailsViewGreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,10 +519,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		342B296927D3DD8B003F85C9 /* LaunchScreen.storyboard */ = {
+		347B5C8727E0DCBD004B728B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				342B296A27D3DD8B003F85C9 /* Base */,
+				347B5C8827E0DCBD004B728B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
