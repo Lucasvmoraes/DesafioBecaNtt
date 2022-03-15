@@ -49,11 +49,11 @@ class CurrencyTableViewCell: UITableViewCell {
     let favoriteIcon: UILabel = {
         
     let label = UILabel()
-    label.text = "⭐"
-    label.textColor = .white
-    label.font = label.font.withSize(10)
-    label.translatesAutoresizingMaskIntoConstraints = false
-    return label
+        label.text = "⭐"
+        label.textColor = .white
+        label.font = label.font.withSize(10)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
     }()
     
     let labelValueCurrency: UILabel = {
