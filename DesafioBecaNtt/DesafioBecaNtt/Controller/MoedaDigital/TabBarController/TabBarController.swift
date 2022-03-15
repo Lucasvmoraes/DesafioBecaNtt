@@ -18,7 +18,7 @@ class TabBarController: Coordinator {
     
     func start() {
         let viewController = CurrencyViewController()
-        let favoriteScreen = FavoriteScreenViewController()
+        let favoriteScreen = FavoriteScreenCollectionViewController()
        
 
         let tabBarVC = UITabBarController()

@@ -17,7 +17,7 @@ enum TipoAmbiente {
 struct Constants {
     
     static let tipoAmbiente: TipoAmbiente = TipoAmbiente.producao
-    static let apiKey = ""
+    static let apiKey = "F7EC4E0F-114A-4EA8-9BC0-18B98A093389"
     static let apiLanguage = "language=pt-BR"
     static let apiUrlImageW500 = "https://image.tmdb.org/t/p/w500"
     static let apiUrlImageOriginal = "https://image.tmdb.org/t/p/original/"
