@@ -9,12 +9,12 @@ import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
     
-    let currencyModelView: UIView = {
+    let currencyViewModel: UIView = {
         let iv = UIView()
 
         iv.translatesAutoresizingMaskIntoConstraints = false
         iv.backgroundColor = .orange
-        iv.layer.cornerRadius = 20
+        iv.layer.cornerRadius = 15
         return iv
     }()
 
@@ -22,7 +22,7 @@ class CustomCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "₿"
         label.textColor = .white
-        label.font = UIFont.systemFont(ofSize: 30, weight: .bold)
+        label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -59,13 +59,14 @@ class CustomCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "$ 31.010,20"
         label.textColor = .white
+        label.font = label.font.withSize(15)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
 
 
     func loadUIElements() {
-        setupCurrencyModelView()
+        setupCurrencyViewModel()
         setupSymbolLabel()
         setupLabelNameCurrency()
         setupLabelCurrencyAbbreviation()
@@ -73,37 +74,42 @@ class CustomCollectionViewCell: UICollectionViewCell {
         setupLabelValueCurrency()
     }
 
-    fileprivate func setupCurrencyModelView() {
-        contentView.addSubview(currencyModelView)
+    fileprivate func setupCurrencyViewModel() {
+        contentView.addSubview(currencyViewModel)
 
-        currencyModelView.topAnchor.constraint(equalTo: self.topAnchor, constant: 10).isActive = true
-        currencyModelView.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 20).isActive = true
-        currencyModelView.widthAnchor.constraint(equalToConstant: 40).isActive = true
-        currencyModelView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -10).isActive = true
+        currencyViewModel.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        currencyViewModel.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 80).isActive = true
+        currencyViewModel.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        currencyViewModel.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        currencyViewModel.heightAnchor.constraint(equalToConstant: 10).isActive = true
+        currencyViewModel.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -80).isActive = true
     }
 
     fileprivate func setupSymbolLabel() {
         contentView.addSubview(symbolLabel)
 
-        symbolLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 10).isActive = true
-        symbolLabel.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 31).isActive = true
-        symbolLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -10).isActive = true
+        symbolLabel.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        symbolLabel.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 86).isActive = true
+        symbolLabel.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        symbolLabel.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        symbolLabel.heightAnchor.constraint(equalToConstant: 10).isActive = true
+        symbolLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -80).isActive = true
     }
 
 
     fileprivate func setupLabelNameCurrency() {
         contentView.addSubview(labelNameCurrency)
 
-        labelNameCurrency.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
-        labelNameCurrency.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        labelNameCurrency.topAnchor.constraint(equalTo: self.topAnchor, constant: 7).isActive = true
+        labelNameCurrency.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 27).isActive = true
         labelNameCurrency.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
     }
 
     fileprivate func setupLabelCurrencyAbbreviation() {
         contentView.addSubview(labelCurrencyAbbreviation)
 
-        labelCurrencyAbbreviation.topAnchor.constraint(equalTo: labelNameCurrency.bottomAnchor).isActive = true
-        labelCurrencyAbbreviation.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        labelCurrencyAbbreviation.topAnchor.constraint(equalTo: labelNameCurrency.bottomAnchor, constant: 7).isActive = true
+        labelCurrencyAbbreviation.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 40).isActive = true
         labelCurrencyAbbreviation.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
         
     }

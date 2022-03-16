@@ -17,7 +17,7 @@ class MoedaDetailsCoordinator: Coordinator {
     }
     
     func start() {
-        let viewController = AddFavoriteViewController(viewModel: moedaViewModel)
+        let viewController = CoinDetailsViewController() //(viewModel: moedaViewModel)
         self.navigationController.pushViewController(viewController, animated: false)
     }
 }

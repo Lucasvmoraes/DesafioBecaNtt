@@ -17,7 +17,7 @@ class FavoriteScreenCollectionViewController: UIViewController, UICollectionView
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.backgroundColor = .black
         
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        collectionView.register(CustomCollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
         
         return collectionView
     }()
@@ -59,22 +59,26 @@ class FavoriteScreenCollectionViewController: UIViewController, UICollectionView
 
     // MARK: UICollectionViewDataSource
 
-//    override func numberOfSections(in collectionView: UICollectionView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 10
-//    }
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return 5
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
-        cell.contentView.backgroundColor = .backgroundColorSubView
-        cell.layer.cornerRadius = 10
-        cell.layer.masksToBounds = true
-        
-        return cell
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as? CustomCollectionViewCell {
+            cell.contentView.backgroundColor = .backgroundColorSubView
+            cell.layer.cornerRadius = 10
+            cell.layer.masksToBounds = true
+            cell.loadUIElements()
+            
+            return cell
+        }
+        return UICollectionViewCell()
     }
+    
+//    minimumInteritemSpacingForSection
 }
 

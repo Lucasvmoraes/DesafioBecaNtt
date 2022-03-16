@@ -13,10 +13,11 @@ class CurrencyViewController: UIViewController {
     var onSelectedMoeda: ((_ trendingSelected: CurrencyViewModel) -> Void)?
     
     // MARK: - Views
-    var currencyView: CurrencyView = {
-        let view = CurrencyView(frame: .zero)
+    lazy var currencyView: CurrencyView = {
+        let view = CurrencyView(frame: .zero, onSelectedMoeda: self.onSelectedMoeda)
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = .black
+//        view.onSelectedMoeda = self.onSelectedMoeda
         
         return view
     }()
@@ -43,6 +44,7 @@ class CurrencyViewController: UIViewController {
         searchBar.barTintColor = .black
         searchBar.placeholder = "Search"
         currencyView.tableView.tableHeaderView = searchBar
+        
         
         let textFieldInsideSearchBar = searchBar.value(forKey: "searchField") as? UITextField
         textFieldInsideSearchBar?.textColor = .white

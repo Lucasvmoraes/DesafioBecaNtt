@@ -40,6 +40,9 @@
 		E97F6CEA27D7B7D300DDF1FB /* CustomTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F6CE927D7B7D200DDF1FB /* CustomTitleView.swift */; };
 		E97F6CEF27D8D6FD00DDF1FB /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F6CEE27D8D6FD00DDF1FB /* Color+.swift */; };
 		E97F6CF127D905F600DDF1FB /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F6CF027D905F600DDF1FB /* CurrencyTableViewCell.swift */; };
+		E9D5075527E252BC00990D96 /* CoinDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D5075427E252BC00990D96 /* CoinDetailsViewController.swift */; };
+		E9D5075727E252DF00990D96 /* CoinDetailsViewGreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D5075627E252DF00990D96 /* CoinDetailsViewGreen.swift */; };
+		E9D5075927E252F000990D96 /* CoinDetailsViewBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D5075827E252F000990D96 /* CoinDetailsViewBlack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,9 @@
 		E97F6CE927D7B7D200DDF1FB /* CustomTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleView.swift; sourceTree = "<group>"; };
 		E97F6CEE27D8D6FD00DDF1FB /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		E97F6CF027D905F600DDF1FB /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		E9D5075427E252BC00990D96 /* CoinDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewController.swift; sourceTree = "<group>"; };
+		E9D5075627E252DF00990D96 /* CoinDetailsViewGreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewGreen.swift; sourceTree = "<group>"; };
+		E9D5075827E252F000990D96 /* CoinDetailsViewBlack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewBlack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +203,9 @@
 			children = (
 				E96B72D627DB6F1600B47786 /* AddFavoriteView.swift */,
 				E96B72D827DB6F3600B47786 /* AddFavoriteViewController.swift */,
+				E9D5075427E252BC00990D96 /* CoinDetailsViewController.swift */,
+				E9D5075627E252DF00990D96 /* CoinDetailsViewGreen.swift */,
+				E9D5075827E252F000990D96 /* CoinDetailsViewBlack.swift */,
 			);
 			path = AdicionarMoedaFavorita;
 			sourceTree = "<group>";
@@ -508,6 +517,7 @@
 			files = (
 				342B295F27D3DD88003F85C9 /* AppDelegate.swift in Sources */,
 				E97F6CDC27D65C9000DDF1FB /* DebugLogger.swift in Sources */,
+				E9D5075927E252F000990D96 /* CoinDetailsViewBlack.swift in Sources */,
 				E97F6CD327D6525C00DDF1FB /* ApiProvider+.swift in Sources */,
 				E97F6CF127D905F600DDF1FB /* CurrencyTableViewCell.swift in Sources */,
 				E96B72ED27E0240D00B47786 /* FavoriteScreenCollectionViewController.swift in Sources */,
@@ -522,6 +532,8 @@
 				E96B72D227DB6E4200B47786 /* MoedaDetailsCoordinator.swift in Sources */,
 				E97F6CE027D65DE600DDF1FB /* Constants.swift in Sources */,
 				E97F6CC527D6264C00DDF1FB /* CurrencyViewController.swift in Sources */,
+				E9D5075727E252DF00990D96 /* CoinDetailsViewGreen.swift in Sources */,
+				E9D5075527E252BC00990D96 /* CoinDetailsViewController.swift in Sources */,
 				E97F6CD127D6525000DDF1FB /* ApiProvider.swift in Sources */,
 				E96B72D727DB6F1600B47786 /* AddFavoriteView.swift in Sources */,
 				342B296127D3DD88003F85C9 /* SceneDelegate.swift in Sources */,

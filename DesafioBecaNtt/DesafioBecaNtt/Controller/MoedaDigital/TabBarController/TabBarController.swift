@@ -10,27 +10,28 @@ import UIKit
 class TabBarController: Coordinator {
     
     var navigationController: UINavigationController
-    
-    init(navigationController: UINavigationController) {
+    var viewControllers: [UINavigationController]
+    init(navigationController: UINavigationController, viewControllers: [UINavigationController]) {
         self.navigationController = navigationController
+        self.viewControllers = viewControllers
         
     }
     
     func start() {
-        let viewController = CurrencyViewController()
-        let favoriteScreen = FavoriteScreenCollectionViewController()
-       
+//        let viewController = CurrencyViewController()
+//        let favoriteScreen = FavoriteScreenCollectionViewController()
+//        let vc1 = UINavigationController(rootViewController: viewController)
+//        let vc2 = UINavigationController(rootViewController: favoriteScreen)
+//
+//
+//
+//        vc1.title = "Moedas"
+//        vc2.title = "Favoritos"
+//
 
         let tabBarVC = UITabBarController()
-        let vc1 = UINavigationController(rootViewController: viewController)
-        let vc2 = UINavigationController(rootViewController: favoriteScreen)
         
-        
-        
-        vc1.title = "Moedas"
-        vc2.title = "Favoritos"
-        
-        tabBarVC.setViewControllers([vc1, vc2], animated: false)
+        tabBarVC.setViewControllers(viewControllers, animated: false)
         tabBarVC.modalPresentationStyle = .fullScreen
         tabBarVC.tabBar.tintColor = .white
         tabBarVC.tabBar.barTintColor = .black
@@ -50,7 +51,11 @@ class TabBarController: Coordinator {
 
         }
 
-        self.navigationController.present(tabBarVC, animated: true)
+        self.navigationController.pushViewController(tabBarVC, animated: true)
 
     }
 }
+
+
+
+
