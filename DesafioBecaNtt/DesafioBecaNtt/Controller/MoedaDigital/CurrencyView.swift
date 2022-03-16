@@ -8,9 +8,11 @@
 import Foundation
 import UIKit
 
+typealias Callback = ((_ trendingSelected: CurrencyViewModel) -> Void)
+
 class CurrencyView: UIView {
     
-    var onSelectedMoeda: ((_ trendingSelected: CurrencyViewModel) -> Void)?
+    var onSelectedMoeda: Callback?
     
     // MARK: Constants
     private let cellId = "moedaId"
@@ -29,7 +31,9 @@ class CurrencyView: UIView {
     }()
     
     // MARK: - Inicializadores
-    override init(frame: CGRect) {
+     init(frame: CGRect,
+          onSelectedMoeda: Callback?) {
+         self.onSelectedMoeda = onSelectedMoeda
         super.init(frame: frame)
         
         loadUIElements()
@@ -58,7 +62,11 @@ class CurrencyView: UIView {
 
 extension CurrencyView: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        onSelectedMoeda?(CurrencyViewModel())
+        if let callback = onSelectedMoeda {
+            callback(CurrencyViewModel())
+        } else {
+            print("Tem não")
+        }
     }
 }
 
