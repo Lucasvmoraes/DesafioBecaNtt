@@ -20,7 +20,17 @@ class MoedaCoordinator: Coordinator {
         viewController.onSelectedMoeda = { viewModel in
             self.gotoDetails(viewModel: viewModel)
         }
-        self.navigationController.pushViewController(viewController, animated: false)
+        
+        let favoriteScreen = FavoriteScreenViewController()
+        let vc1 = UINavigationController(rootViewController: viewController)
+        let vc2 = UINavigationController(rootViewController: favoriteScreen)
+        
+        vc1.title = "Moedas"
+        vc2.title = "Favoritos"
+        
+        let tabBar = TabBarController(navigationController: navigationController,
+                                      viewControllers: [vc1, vc2])
+        tabBar.start()
     }
     
     func gotoDetails(viewModel: CurrencyViewModel) {
